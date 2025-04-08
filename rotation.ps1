@@ -6,7 +6,7 @@ $spice = "path to spice2x"
 
 # Launch the applications
 # Rotates to Portrait (Flipped)
-Start-Process $display -ArgumentList "/device {$monitor} /rotate 270" 
+Start-Process $display -ArgumentList "/device ${monitor} /rotate 270" 
 $aspid = (Start-Process $asphyxia -passthru).Id
 # Let asphyxia boot up
 Start-Sleep -Seconds 2
@@ -18,4 +18,4 @@ Start-Sleep -Seconds 2
 Stop-Process -Id $aspid
 
 # Set to original rotation
-Start-Process $display -ArgumentList "/device {$monitor} /rotate 0"
+Start-Process $display -ArgumentList "/device ${monitor} /rotate 0"
