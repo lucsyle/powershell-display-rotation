@@ -2,6 +2,6 @@ Basic rotation script for vertical spice2x applications. Closes asphyxia-core an
 
 Replace the variables with the correct paths and monitor for your usecase.
 
-# Requires
+# Requirements
 
 Display: http://noeld.com/programs.asp?cat=misc#display
