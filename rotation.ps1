@@ -1,4 +1,4 @@
-# Application path
+# CHANGE THESE
 $monitor = 1
 $display = "path to display64.exe"
 $asphyxia = "path to asphyxia-core"
