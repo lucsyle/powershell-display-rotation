@@ -4,4 +4,4 @@ Replace the variables with the correct paths and monitor for your usecase.
 
 # Requires
 
-Display: available here http://noeld.com/programs.asp?cat=misc#display
+Display: http://noeld.com/programs.asp?cat=misc#display
